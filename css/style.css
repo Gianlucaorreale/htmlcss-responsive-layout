@@ -43,7 +43,7 @@
     background-color: #9792E4;
 }
 
-.third-section {
+.third-section, .fifth-section {
     margin-top: 40px;
 }
 
@@ -52,6 +52,8 @@
     padding-top: 20px;
     background-color: #9792E4;
 }
+
+
 
 .cards-container {
     margin: 0 auto;
@@ -75,6 +77,12 @@
     color: #B5DDFF;
     padding: 10px;
     margin-bottom: 15px;
+}
+
+.photo {
+    background-color: red;
+    width: 100px;
+    height: 100px;
 }
 
 /*UTILS*/
@@ -101,4 +109,8 @@
 
 .color-white {
     color: white;
+}
+
+.m-bottom-20 {
+    margin-bottom:20px
 }
