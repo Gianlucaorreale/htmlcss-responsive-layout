@@ -59,6 +59,12 @@
     padding: 10px;
 }
 
+.info-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
 .img {
     background-color: yellow;
     color:yellow;
@@ -75,6 +81,7 @@
     color: #B5DDFF;
     padding: 10px;
     margin-bottom: 15px;
+    border: 1px solid black;
 }
 
 .photo {
@@ -131,12 +138,18 @@
     margin-bottom:20px
 }
 
-.w-60 {
-    width: 60%;
+.w-66 {
+    width: 66%;
 }
-.w-30 {
-    width: 30%;
+
+.w-50 {
+    width: 50%;
 }
+.w-33 {
+    width: 33%;
+}
+
+
 
 /*##RESPONSIVE##*/
 
@@ -148,10 +161,13 @@
 
     .seceond-row {
         display: flex;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
     }
 
-    .card { 
-        margin: 10px 9px ;
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    
 }
