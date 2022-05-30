@@ -38,10 +38,26 @@
     margin-top: 65px;
 }
 
+.second-section {
+    margin-top: 40px;
+    background-color: #9792E4;
+}
+
 .cards-container {
     margin: 0 auto;
     width: 80%;
     padding: 10px;
+}
+
+.img {
+    background-color: yellow;
+    color:yellow;
+    margin: 20px 0px;
+}
+.description {
+    background-color: lightgreen;
+    color:lightgreen;
+    margin: 20px 0px;
 }
 
 .card {
@@ -49,5 +65,14 @@
     color: #B5DDFF;
     padding: 10px;
     margin-bottom: 15px;
+}
+
+/*UTILS*/
+
+.border-20 {
+    border-radius: 20px;
+}
+
+.border-10 {
     border-radius: 10px;
 }
