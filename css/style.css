@@ -186,6 +186,7 @@
     .description-container {
         display: flex;
         flex-direction: column;
+        width: 60%;
     }
 
     .cards-container {
@@ -194,7 +195,7 @@
     }
 
     .photo {
-        width: 30%;
+        width: 40%;
        margin: 20px;
     }
 
