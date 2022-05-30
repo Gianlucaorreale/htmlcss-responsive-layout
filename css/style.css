@@ -53,8 +53,6 @@
     background-color: #9792E4;
 }
 
-
-
 .cards-container {
     margin: 0 auto;
     width: 80%;
@@ -83,6 +81,22 @@
     background-color: red;
     width: 100px;
     height: 100px;
+}
+
+/*FOOTER*/
+
+.first-footer {
+    background-color: #9792E4;
+}
+
+.second-footer {
+    background-color: black;
+}
+
+.footer-container {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
 }
 
 /*UTILS*/
