@@ -45,7 +45,12 @@
 
 .third-section {
     margin-top: 40px;
-    
+}
+
+.fourth-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    background-color: #9792E4;
 }
 
 .cards-container {
@@ -82,10 +87,18 @@
     border-radius: 10px;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .bg-violet {
     background-color: #9792E4;
 } 
 
 .color-violet {
     color: #9792E4;;
+}
+
+.color-white {
+    color: white;
 }
