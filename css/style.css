@@ -101,6 +101,8 @@
 
 /*UTILS*/
 
+
+
 .border-20 {
     border-radius: 20px;
 }
@@ -127,4 +129,29 @@
 
 .m-bottom-20 {
     margin-bottom:20px
+}
+
+.w-60 {
+    width: 60%;
+}
+.w-30 {
+    width: 30%;
+}
+
+/*##RESPONSIVE##*/
+
+@media screen and (min-width:768px){
+    .first-row {
+        display: flex;
+        flex-wrap: wrap;
+    } 
+
+    .seceond-row {
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .card { 
+        margin: 10px 9px ;
+    }
 }
