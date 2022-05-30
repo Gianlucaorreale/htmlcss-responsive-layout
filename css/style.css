@@ -43,6 +43,11 @@
     background-color: #9792E4;
 }
 
+.third-section {
+    margin-top: 40px;
+    
+}
+
 .cards-container {
     margin: 0 auto;
     width: 80%;
@@ -75,4 +80,12 @@
 
 .border-10 {
     border-radius: 10px;
+}
+
+.bg-violet {
+    background-color: #9792E4;
+} 
+
+.color-violet {
+    color: #9792E4;;
 }
