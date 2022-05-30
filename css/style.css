@@ -76,13 +76,21 @@
     margin: 20px 0px;
 }
 
-.card {
+.card, .block {
     background-color: #B5DDFF;
     color: #B5DDFF;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid black;
 }
+.big-card {
+    background-color: #B5DDFF;
+    color: #B5DDFF;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
 
 .photo {
     background-color: red;
@@ -153,7 +161,14 @@
 
 /*##RESPONSIVE##*/
 
-@media screen and (min-width:768px){
+@media screen and (min-width:767px){
+    .big-card {
+        width: 66%;
+    }
+
+    .card {
+        width: 33%;
+    }
     .first-row {
         display: flex;
         flex-wrap: wrap;
