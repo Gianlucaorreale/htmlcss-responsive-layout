@@ -150,6 +150,13 @@ i {
     height: 100px;
 }
 
+.testimonial {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+}
+
 /*FOOTER*/
 
 .first-footer {
@@ -190,6 +197,10 @@ i {
     background-color: #9792E4;
 } 
 
+.color-violet {
+color: #9792E4;
+
+}
 .color-violet {
     color: #9792E4;;
 }
@@ -275,11 +286,9 @@ i {
 @media screen and (min-width:991px) {
     .big-card {
         display: flex;
-        
     }
-
-     
-     .first-col, .second-col {
+    
+    .first-col, .second-col {
          width: 50%;
      }
      .col-container {
