@@ -4,7 +4,15 @@
     box-sizing: border-box;
 } 
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /*HEADER*/
+
+header {
+    margin-bottom: 110px; 
+}
 
 .header-container {
     background-color: #0084FD;
@@ -12,6 +20,25 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+button {
+    border-color: #0084FD;
+    padding: 1px 10px;
+    border-radius:10px
+}
+
+
+ul {
+    display: flex;
+    margin: 13px;
+}
+
+li, a {
+   color: white;
+   list-style-type: none;
+   text-decoration: none;
+   margin: 0px 5px;
 }
 
 .contained {
@@ -27,9 +54,12 @@
 
 
 .logo, .menu {
-  background-color: white;
   color: white;
-  border: 1px dashed black;  
+    
+}
+
+i {
+    text-align: center;
 }
 
 /*MAIN*/
@@ -53,7 +83,7 @@
     background-color: #9792E4;
 }
 
-.cards-container {
+.cards-container, .second-container {
     margin: 0 auto;
     width: 80%;
     padding: 10px;
@@ -161,6 +191,12 @@
 
 /*##RESPONSIVE##*/
 
+@media screen and (min-width:0px){
+    .desktop-menu {
+        display: none;
+    }
+}
+
 @media screen and (min-width:767px){
     .big-card {
         width: 66%;
@@ -198,6 +234,18 @@
         width: 40%;
        margin: 20px;
     }
-
     
+    
+    
+}
+
+@media screen and (min-width:991px) {
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desktop-menu {
+        display: flex;
+    }
 }
