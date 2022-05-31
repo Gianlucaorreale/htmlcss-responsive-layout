@@ -63,6 +63,11 @@ li, a {
     justify-content: space-between;
 }
 
+h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
 h3 {
     color: #0084FD;
     margin-bottom: 20px;
@@ -115,12 +120,11 @@ i {
     padding: 10px;
 }
 
-.phone {
+.phone, .planning {
     height: 350px;
 }
 .description {
-    background-color: lightgreen;
-    color:lightgreen;
+    color:black;
     margin: 20px 0px;
 }
 
@@ -261,6 +265,9 @@ i {
        margin: 20px;
     }
     
+    .planning {
+        height: 450px;
+    }
     
     
 }
@@ -270,6 +277,8 @@ i {
         display: flex;
         
     }
+
+     
      .first-col, .second-col {
          width: 50%;
      }
@@ -283,6 +292,13 @@ i {
     .phone {
         height: 240px;
         margin-top: 70px;
+    }
+    .planning {
+        height: 350px;
+    }
+
+    .margin-top {
+        margin-top: 150px;
     }
 
 
