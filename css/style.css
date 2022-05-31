@@ -23,11 +23,22 @@ header {
 }
 
 button {
-    border-color: #0084FD;
     padding: 1px 10px;
     border-radius:10px
 }
 
+.btn-header {
+    border-color: #0084FD;
+}
+
+.btn-card {
+   background-color: #0084FD;
+   border-radius:10px;
+   text-align: center;
+   color: white;
+   width: 140px;
+   margin-left: 110px;
+}
 
 ul {
     display: flex;
@@ -52,10 +63,19 @@ li, a {
     justify-content: space-between;
 }
 
+h3 {
+    color: #0084FD;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+    padding: 0px 10px;;
+}
+
 
 .logo, .menu {
   color: white;
-    
 }
 
 i {
@@ -95,10 +115,8 @@ i {
     padding: 10px;
 }
 
-.img {
-    background-color: yellow;
-    color:yellow;
-    margin: 20px 0px;
+.phone {
+    height: 350px;
 }
 .description {
     background-color: lightgreen;
@@ -108,17 +126,17 @@ i {
 
 .card, .block {
     background-color: #B5DDFF;
-    color: #B5DDFF;
+    color: black;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid black;
+    text-align: center;
 }
 .big-card {
     background-color: #B5DDFF;
-    color: #B5DDFF;
-    padding: 10px;
+    color: black;
     margin-bottom: 15px;
-    border: 1px solid black;
+    text-align: center;
+    
 }
 
 
@@ -156,6 +174,10 @@ i {
     border-radius: 10px;
 }
 
+.bg-blue {
+    color: #0084FD;  
+}
+
 .bg-white {
     background-color: white;
 }
@@ -191,10 +213,14 @@ i {
 
 /*##RESPONSIVE##*/
 
-@media screen and (min-width:0px){
+@media screen and (min-width:450px){
     .desktop-menu {
         display: none;
     }
+
+    .big-card {
+        padding-top: 20px;
+        }
 }
 
 @media screen and (min-width:767px){
@@ -240,12 +266,24 @@ i {
 }
 
 @media screen and (min-width:991px) {
-    .d-flex {
+    .big-card {
         display: flex;
-        flex-direction: column;
+        
     }
-
+     .first-col, .second-col {
+         width: 50%;
+     }
+     .col-container {
+         display: flex;
+     }
     .desktop-menu {
         display: flex;
     }
+
+    .phone {
+        height: 240px;
+        margin-top: 70px;
+    }
+
+
 }
